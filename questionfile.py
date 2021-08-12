@@ -19,3 +19,8 @@
 #50 legs
 
 #Create a python script to solve this problem.
+
+chickens = int(input("how many chickens? "))
+cows = int(input("how many cows? "))
+dogs = int(input("how many dogs? "))
+legs = (chickens * 2) + (cows * 4) + (dogs * 4)
