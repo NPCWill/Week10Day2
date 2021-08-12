@@ -20,8 +20,10 @@
 
 #Create a python script to solve this problem.
 
+
 chickens = int(input("How many chickens? "))
 cows = int(input("How many cows? "))
 dogs = int(input("How many dogs? "))
 legs = (chickens * 2) + (cows * 4) + (dogs * 4)
 print("The total number of legs is {}".format(legs))
+
